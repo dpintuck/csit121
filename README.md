@@ -1,1 +1,1 @@
-This is the repository for my CSIT 121
+This is the repository for my CSIT 121 Class
