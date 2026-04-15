@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+    margin: 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid;
+}
+
+th {
+    border: 2px solid;
+    background-color: whitesmoke;
+
+}
+
+td {
+    border: 2px solid;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+
+}
+form {
+    margin: 5%;
+    background-color: antiquewhite;
+}
+.current {
+    color:red
+}
