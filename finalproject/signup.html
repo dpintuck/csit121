@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate/Sign-Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <img src="images/PawsomeAnimalShelter.png" alt="Pawsome Logo">
+    <h1>Pawsome Pet Rescue</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Pawsome Home</a></li>
+            <li><a href="adopt.html">Adoptions</a></li>
+            <li><a href="signup.html">Donate/Sign-Up</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="reflection.html">Reflection</a></li>
+        </ul>
+    </nav>
+    <h2>Pawsome Donate/Sign-Up Form</h2>
+    <form action="action_page.php" method="post">
+        <div>
+            <label for="FirstName">First Name:</label>
+            <input type="text" id="FirstName" name="First Name" placeholder="First Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="LastName">Last Name:</label>
+            <input type="text" id="LastName" name="Last Name" placeholder="Last Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email here">
+        </div>
+        <h3>What are you contact us about?</h3>
+        <div>
+            <input type="checkbox" id="Donate" name="Donate" value="Donate">
+            <label for="Donate">Donations</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Foster" name="Foster" value="Foster">
+            <label for="Foster">Fostering</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Events" name="Events" value="Events">
+            <label for="Events">Events</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Volunteer" name="Volunteer" value="Volunteer">
+            <label for="Volunteer">Volunteering</label>
+        </div>
+        <br>
+        <div>
+            <label for="msg">Please provide details on what you are contact us about.</label>
+            <br>
+            <textarea id="msg" name="msg" rows="10" cols="60" placeholder="Details..."></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Submit Form">
+    </form>
+    <br>
+    <footer>&copy; Dave Pintuck. All rights reserved.</footer>
+</body>
+
+</html>
